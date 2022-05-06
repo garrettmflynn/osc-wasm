@@ -1,5 +1,18 @@
-[![Build Status](https://img.shields.io/travis/kaoskorobase/oscpp.svg?style=flat)](https://travis-ci.org/kaoskorobase/oscpp)
-[![Build status](https://ci.appveyor.com/api/projects/status/b7qk7t9mmgnc1n1v?svg=true)](https://ci.appveyor.com/project/kaoskorobase/oscpp)
+# osc-wasm
+
+> **Note:** This repo is currently only a placeholder for converting **oscpp** into a WASM module. It doesn't work at all. Feel free to jump in and help out though!
+
+
+## Building from Source
+Use https://emscripten.org/docs/getting_started/downloads.html to setup Emscripten.
+
+Then run: 
+```bash
+emcc -lembind -o quick_example.js osc.cpp
+```
+
+
+# Original C++ Library
 
 **oscpp** is a header-only C++11 library for constructing and parsing
 [OpenSoundControl](http://opensoundcontrol.org) packets. Supported platforms
