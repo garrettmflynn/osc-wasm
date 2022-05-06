@@ -8,7 +8,7 @@ Use https://emscripten.org/docs/getting_started/downloads.html to setup Emscript
 
 Then run: 
 ```bash
-emcc -lembind -o quick_example.js osc.cpp
+emcc -lembind -o dist/quick_example.js osc.cpp
 ```
 
 
